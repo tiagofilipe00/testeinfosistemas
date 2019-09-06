@@ -1,0 +1,14 @@
+program Project;
+
+uses
+  Forms,
+  Main in 'Main.pas' {frmMain},
+  unCliente in 'unCliente.pas' {frmCliente};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(TfrmMain, frmMain);
+  Application.Run;
+end.
